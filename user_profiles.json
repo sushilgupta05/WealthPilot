@@ -1,0 +1,965 @@
+{
+  "portfolios": [
+    {
+      "id": 1,
+      "name": "Sushil",
+      "age": 22,
+      "occupation": "Technology Professional",
+      "riskProfile": "High/Aggressive",
+      "totalPortfolioValue": 2500000,
+      "currency": "INR",
+      "goals": [
+        "Build own house (5-7 years)",
+        "Fund foreign trips (Annual)",
+        "Long-term retirement wealth"
+      ],
+      "allocation": {
+        "houseEscrow": {
+          "percentage": 40,
+          "value": 1000000,
+          "description": "Near-term goal (5-7 years) - Capital preservation"
+        },
+        "tripFund": {
+          "percentage": 25,
+          "value": 625000,
+          "description": "Frequent foreign travel corpus"
+        },
+        "longTermEquity": {
+          "percentage": 30,
+          "value": 750000,
+          "description": "Retirement & wealth building (30+ years)"
+        },
+        "cryptocurrency": {
+          "percentage": 5,
+          "value": 125000,
+          "description": "Emerging asset class speculation"
+        }
+      },
+      "holdings": {
+        "equityMutualFunds": [
+          {
+            "id": "eq_1",
+            "name": "SBI Bluechip Fund",
+            "symbol": "SBIEQ",
+            "amount": 150000,
+            "allocation_pct": 6,
+            "expense_ratio": 0.89,
+            "category": "Large Cap Equity",
+            "expected_return": "11-12%",
+            "topHoldings": [
+              "TCS",
+              "Reliance",
+              "HDFC Bank",
+              "Infosys"
+            ]
+          },
+          {
+            "id": "eq_2",
+            "name": "ICICI Prudential Technology Fund",
+            "symbol": "ICICITF",
+            "amount": 120000,
+            "allocation_pct": 4.8,
+            "expense_ratio": 1.25,
+            "category": "Sector Fund (IT)",
+            "expected_return": "13-15%",
+            "topHoldings": [
+              "TCS",
+              "Infosys",
+              "HCL Tech",
+              "Wipro",
+              "Tech Mahindra"
+            ]
+          },
+          {
+            "id": "eq_3",
+            "name": "Axis Midcap Fund",
+            "symbol": "AXISMF",
+            "amount": 180000,
+            "allocation_pct": 7.2,
+            "expense_ratio": 1.42,
+            "category": "Mid-Cap Equity",
+            "expected_return": "14-16%",
+            "topHoldings": [
+              "Suzlon",
+              "Lupin",
+              "Atul Auto",
+              "Balkrishna Industries"
+            ]
+          },
+          {
+            "id": "eq_4",
+            "name": "HDFC Sensex Index Fund",
+            "symbol": "HDFCSENSEX",
+            "amount": 200000,
+            "allocation_pct": 8,
+            "expense_ratio": 0.13,
+            "category": "Index Fund (Sensex)",
+            "expected_return": "10-11%",
+            "topHoldings": [
+              "Reliance",
+              "TCS",
+              "HDFC Bank",
+              "Infosys",
+              "Bajaj Finance"
+            ]
+          },
+          {
+            "id": "eq_5",
+            "name": "Motilal Oswal Multicap Fund",
+            "symbol": "MMCAP",
+            "amount": 100000,
+            "allocation_pct": 4,
+            "expense_ratio": 1.35,
+            "category": "Multi-Cap Equity",
+            "expected_return": "12-14%",
+            "topHoldings": [
+              "Mix of Large, Mid, Small Cap"
+            ]
+          }
+        ],
+        "directStocks": [
+          {
+            "id": "stock_1",
+            "name": "Infosys Limited",
+            "symbol": "INFY",
+            "quantity": 50,
+            "buyPrice": 1200,
+            "currentPrice": 1450,
+            "amount": 72500,
+            "allocation_pct": 2.9,
+            "sector": "Information Technology",
+            "expectedReturn": "12-14%"
+          },
+          {
+            "id": "stock_2",
+            "name": "Bajaj Finance Limited",
+            "symbol": "BAJAJFINSV",
+            "quantity": 20,
+            "buyPrice": 6500,
+            "currentPrice": 7200,
+            "amount": 144000,
+            "allocation_pct": 5.76,
+            "sector": "Financial Services",
+            "expectedReturn": "10-12%"
+          },
+          {
+            "id": "stock_3",
+            "name": "Godrej Properties Limited",
+            "symbol": "GODREJPROP",
+            "quantity": 100,
+            "buyPrice": 1600,
+            "currentPrice": 1850,
+            "amount": 185000,
+            "allocation_pct": 7.4,
+            "sector": "Real Estate",
+            "expectedReturn": "14-16%"
+          },
+          {
+            "id": "stock_4",
+            "name": "Tata Consultancy Services",
+            "symbol": "TCS",
+            "quantity": 30,
+            "buyPrice": 3500,
+            "currentPrice": 3800,
+            "amount": 114000,
+            "allocation_pct": 4.56,
+            "sector": "Information Technology",
+            "expectedReturn": "11-13%"
+          }
+        ],
+        "debtFunds": [
+          {
+            "id": "debt_1",
+            "name": "HDFC Low Duration Fund",
+            "symbol": "HDFCLDF",
+            "amount": 150000,
+            "allocation_pct": 6,
+            "expense_ratio": 0.35,
+            "duration_years": 2,
+            "expected_return": "5.5-6%",
+            "category": "Short Duration Debt"
+          },
+          {
+            "id": "debt_2",
+            "name": "SBI Savings Fund",
+            "symbol": "SBISAV",
+            "amount": 125000,
+            "allocation_pct": 5,
+            "expense_ratio": 0.25,
+            "duration_years": 1,
+            "expected_return": "5-5.5%",
+            "category": "Liquid/Savings Fund"
+          }
+        ],
+        "liquidFunds": [
+          {
+            "id": "liquid_1",
+            "name": "Aditya Birla Sun Life Savings Fund",
+            "symbol": "ABSLSAV",
+            "amount": 200000,
+            "allocation_pct": 8,
+            "expense_ratio": 0.20,
+            "expected_return": "5.5-6%",
+            "category": "Liquid Funds"
+          },
+          {
+            "id": "liquid_2",
+            "name": "ICICI Prudential Liquid Fund",
+            "symbol": "ICICILIQ",
+            "amount": 100000,
+            "allocation_pct": 4,
+            "expense_ratio": 0.22,
+            "expected_return": "5.5-6%",
+            "category": "Liquid Funds - Trip corpus"
+          }
+        ],
+        "cryptocurrency": [
+          {
+            "id": "crypto_1",
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "quantity": 0.008,
+            "buyPrice_usd": 35000,
+            "currentPrice_usd": 45000,
+            "amount_inr": 75000,
+            "allocation_pct": 3,
+            "exchange": "CoinDCX / WazirX",
+            "storage": "Cold Wallet (Ledger Nano S)",
+            "expectedReturn": "15-25% (high volatility)"
+          },
+          {
+            "id": "crypto_2",
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "quantity": 0.15,
+            "buyPrice_usd": 2500,
+            "currentPrice_usd": 2800,
+            "amount_inr": 35000,
+            "allocation_pct": 1.4,
+            "exchange": "CoinDCX / WazirX",
+            "storage": "Cold Wallet",
+            "expectedReturn": "20-30% (high volatility)"
+          },
+          {
+            "id": "crypto_3",
+            "name": "Solana",
+            "symbol": "SOL",
+            "quantity": 2,
+            "buyPrice_usd": 100,
+            "currentPrice_usd": 165,
+            "amount_inr": 15000,
+            "allocation_pct": 0.6,
+            "exchange": "CoinDCX / WazirX",
+            "storage": "Hot Wallet (controlled risk)",
+            "expectedReturn": "25-40% (speculative)"
+          }
+        ]
+      },
+      "yearlyFinancialMetrics": {
+        "expectedAnnualReturn": "10.5%",
+        "expectedVolatility": "18-22%",
+        "sharpeRatio": 0.52,
+        "projectedValue_5yr": 4100000,
+        "projectedValue_10yr": 6480000,
+        "projectedValue_20yr": 16900000
+      },
+      "rebalancingStrategy": "Quarterly; Annual shift from equities to FDs as house purchase deadline nears",
+      "lastRebalanced": "2026-07-13",
+      "nextRebalanceDateRecommended": "2026-10-13"
+    },
+    {
+      "id": 2,
+      "name": "Anup",
+      "age": 40,
+      "occupation": "Senior Manager - Corporate",
+      "riskProfile": "Medium/Balanced",
+      "totalPortfolioValue": 6500000,
+      "currency": "INR",
+      "goals": [
+        "Retirement fund (Age 58-60, 18-20 years)",
+        "Child education funding",
+        "Wealth preservation",
+        "Debt reduction"
+      ],
+      "allocation": {
+        "retirementFund": {
+          "percentage": 65,
+          "value": 4225000,
+          "description": "Primary goal - Long term growth + capital preservation"
+        },
+        "childEducation": {
+          "percentage": 20,
+          "value": 1300000,
+          "description": "Education corpus - 2 children, 8-14 years timeline"
+        },
+        "wealthPreservation": {
+          "percentage": 10,
+          "value": 650000,
+          "description": "Safe instruments - Emergency buffer"
+        },
+        "debtPaydown": {
+          "percentage": 5,
+          "value": 325000,
+          "description": "Home loan & liability reduction"
+        }
+      },
+      "holdings": {
+        "largeCapEquityFunds": [
+          {
+            "id": "lc_1",
+            "name": "HDFC Top 100 Fund",
+            "symbol": "HDFCTOP100",
+            "amount": 600000,
+            "allocation_pct": 9.23,
+            "expense_ratio": 0.86,
+            "category": "Large Cap",
+            "expected_return": "10-12%",
+            "nav": 285.45,
+            "topHoldings": [
+              "ITC",
+              "HDFC Bank",
+              "Kotak Mahindra",
+              "Bajaj Finance",
+              "Reliance"
+            ]
+          },
+          {
+            "id": "lc_2",
+            "name": "ICICI Prudential Bluechip Fund",
+            "symbol": "ICICIBLUECHIP",
+            "amount": 500000,
+            "allocation_pct": 7.69,
+            "expense_ratio": 0.88,
+            "category": "Large Cap Equity",
+            "expected_return": "10-11%",
+            "nav": 312.15,
+            "topHoldings": [
+              "TCS",
+              "HDFC Bank",
+              "L&T",
+              "Maruti Suzuki",
+              "Hero MotoCorp"
+            ]
+          },
+          {
+            "id": "lc_3",
+            "name": "Axis Bluechip Fund",
+            "symbol": "AXISBLUECHIP",
+            "amount": 450000,
+            "allocation_pct": 6.92,
+            "expense_ratio": 0.83,
+            "category": "Large Cap Equity",
+            "expected_return": "10-12%",
+            "nav": 425.30,
+            "topHoldings": [
+              "Reliance",
+              "TCS",
+              "Infosys",
+              "HDFC Bank",
+              "HDFC"
+            ]
+          }
+        ],
+        "balancedHybridFunds": [
+          {
+            "id": "hybrid_1",
+            "name": "HDFC Balanced Advantage Fund",
+            "symbol": "HDFCBALF",
+            "amount": 700000,
+            "allocation_pct": 10.77,
+            "expense_ratio": 0.91,
+            "category": "Dynamic Balanced Fund",
+            "allocation_equity": "Dynamic (Based on valuation)",
+            "expected_return": "10-11%",
+            "nav": 285.20,
+            "feature": "Auto maintains equity % based on market valuation"
+          },
+          {
+            "id": "hybrid_2",
+            "name": "SBI Balanced Advantage Fund",
+            "symbol": "SBIBALF",
+            "amount": 600000,
+            "allocation_pct": 9.23,
+            "expense_ratio": 0.89,
+            "category": "Dynamic Balanced Fund",
+            "allocation_equity": "Dynamic (30-65%)",
+            "expected_return": "9.5-11%",
+            "nav": 312.85
+          }
+        ],
+        "elssEquityFunds": [
+          {
+            "id": "elss_1",
+            "name": "HDFC ELSS Tax Saver Fund",
+            "symbol": "HDFCELSS",
+            "amount": 150000,
+            "allocation_pct": 2.31,
+            "expense_ratio": 0.87,
+            "category": "Tax Saving Equity (Section 80C)",
+            "lockInPeriod": "3 years",
+            "expected_return": "11-13%",
+            "nav": 215.45,
+            "annualInvestment": 150000
+          },
+          {
+            "id": "elss_2",
+            "name": "Axis ELSS Tax Saver Fund",
+            "symbol": "AXISELSS",
+            "amount": 150000,
+            "allocation_pct": 2.31,
+            "expense_ratio": 0.88,
+            "category": "Tax Saving Equity (Section 80C)",
+            "lockInPeriod": "3 years",
+            "expected_return": "11-13%",
+            "nav": 195.20,
+            "annualInvestment": 150000
+          }
+        ],
+        "directStocks": [
+          {
+            "id": "stock_1",
+            "name": "Larsen & Toubro",
+            "symbol": "LT",
+            "quantity": 100,
+            "buyPrice": 1850,
+            "currentPrice": 2100,
+            "amount": 210000,
+            "allocation_pct": 3.23,
+            "sector": "Engineering & Construction",
+            "dividend_yield": 1.2,
+            "expectedReturn": "10-12%"
+          },
+          {
+            "id": "stock_2",
+            "name": "HDFC Bank Limited",
+            "symbol": "HDFCBANK",
+            "quantity": 200,
+            "buyPrice": 1400,
+            "currentPrice": 1650,
+            "amount": 330000,
+            "allocation_pct": 5.08,
+            "sector": "Banking & Finance",
+            "dividend_yield": 0.6,
+            "expectedReturn": "11-13%"
+          },
+          {
+            "id": "stock_3",
+            "name": "ITC Limited",
+            "symbol": "ITC",
+            "quantity": 500,
+            "buyPrice": 350,
+            "currentPrice": 420,
+            "amount": 210000,
+            "allocation_pct": 3.23,
+            "sector": "Consumer Staples / Diversified",
+            "dividend_yield": 6.8,
+            "expectedReturn": "9-11%"
+          },
+          {
+            "id": "stock_4",
+            "name": "Maruti Suzuki India",
+            "symbol": "MARUTI",
+            "quantity": 100,
+            "buyPrice": 7200,
+            "currentPrice": 8100,
+            "amount": 810000,
+            "allocation_pct": 12.46,
+            "sector": "Automobile",
+            "dividend_yield": 1.8,
+            "expectedReturn": "10-12%"
+          },
+          {
+            "id": "stock_5",
+            "name": "Nestlé India Limited",
+            "symbol": "NESTLEIND",
+            "quantity": 50,
+            "buyPrice": 20000,
+            "currentPrice": 21500,
+            "amount": 1075000,
+            "allocation_pct": 16.54,
+            "sector": "Consumer Staples - Durable",
+            "dividend_yield": 1.1,
+            "expectedReturn": "9-10%"
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd_1",
+            "bank": "SBI",
+            "amount": 800000,
+            "allocation_pct": 12.31,
+            "tenure_years": 5,
+            "rate_percent": 6.5,
+            "maturityDate": "2031-07-13",
+            "purpose": "Retirement fund - Ladder Series"
+          },
+          {
+            "id": "fd_2",
+            "bank": "HDFC Bank",
+            "amount": 600000,
+            "allocation_pct": 9.23,
+            "tenure_years": 3,
+            "rate_percent": 6.25,
+            "maturityDate": "2029-07-13",
+            "purpose": "Education fund - Near term liquidity"
+          },
+          {
+            "id": "fd_3",
+            "bank": "Kotak Mahindra Bank",
+            "amount": 500000,
+            "allocation_pct": 7.69,
+            "tenure_years": 7,
+            "rate_percent": 6.75,
+            "maturityDate": "2033-07-13",
+            "purpose": "Retirement corpus - Long term"
+          }
+        ],
+        "debtMutualFunds": [
+          {
+            "id": "debt_1",
+            "name": "HDFC Bond Fund - Low Duration",
+            "symbol": "HDFCBOND",
+            "amount": 400000,
+            "allocation_pct": 6.15,
+            "expense_ratio": 0.35,
+            "duration_years": 3,
+            "expected_return": "5.5-6%",
+            "category": "Low Duration Debt"
+          },
+          {
+            "id": "debt_2",
+            "name": "ICICI Prudential Bond Fund",
+            "symbol": "ICICIBOND",
+            "amount": 350000,
+            "allocation_pct": 5.38,
+            "expense_ratio": 0.40,
+            "duration_years": 4,
+            "expected_return": "5.5-6.5%",
+            "category": "Medium Duration Bond"
+          },
+          {
+            "id": "debt_3",
+            "name": "Axis Dynamic Bond Fund",
+            "symbol": "AXISDYNAMIC",
+            "amount": 300000,
+            "allocation_pct": 4.62,
+            "expense_ratio": 0.45,
+            "duration_years": "Dynamic",
+            "expected_return": "6-7%",
+            "category": "Dynamic Bond Fund"
+          }
+        ],
+        "childEducationFunds": [
+          {
+            "id": "child_eq_1",
+            "name": "SBI Equity Hybrid Fund (Child 1 - 12 years away)",
+            "symbol": "SBIHYBRID",
+            "amount": 500000,
+            "allocation_pct": 7.69,
+            "expense_ratio": 0.92,
+            "allocation_equity": "70%",
+            "allocation_debt": "30%",
+            "expected_return": "9-11%",
+            "purpose": "Child 1 education (College in 2038)"
+          },
+          {
+            "id": "child_eq_2",
+            "name": "HDFC Balanced Fund (Child 2 - 8 years away)",
+            "symbol": "HDFCBALANCED",
+            "amount": 400000,
+            "allocation_pct": 6.15,
+            "expense_ratio": 0.90,
+            "allocation_equity": "50%",
+            "allocation_debt": "50%",
+            "expected_return": "8-9%",
+            "purpose": "Child 2 education (College in 2034)"
+          },
+          {
+            "id": "child_fd",
+            "name": "Education-Linked FD - Child 2",
+            "symbol": "EDUFD",
+            "amount": 400000,
+            "allocation_pct": 6.15,
+            "tenure_years": 8,
+            "rate_percent": 6.4,
+            "maturityDate": "2034-06-30",
+            "purpose": "College fees for child 2"
+          }
+        ]
+      },
+      "yearlyFinancialMetrics": {
+        "expectedAnnualReturn": "7.8%",
+        "expectedVolatility": "8-10%",
+        "sharpeRatio": 0.85,
+        "projectedValue_5yr": 9100000,
+        "projectedValue_10yr": 13900000,
+        "projectedValue_20yr": 29200000,
+        "retirementCorpusAtAge60": 28000000
+      },
+      "glidePathAllocation": {
+        "age40_now": {
+          "equities": "60%",
+          "debt": "35%",
+          "alternatives": "5%"
+        },
+        "age45": {
+          "equities": "55%",
+          "debt": "40%",
+          "alternatives": "5%"
+        },
+        "age50": {
+          "equities": "45%",
+          "debt": "50%",
+          "alternatives": "5%"
+        },
+        "age55": {
+          "equities": "35%",
+          "debt": "60%",
+          "alternatives": "5%"
+        },
+        "age60_retirement": {
+          "equities": "25%",
+          "debt": "70%",
+          "alternatives": "5%"
+        }
+      },
+      "rebalancingStrategy": "Semi-annual (January & July); Shift 1-2% equity to debt annually",
+      "lastRebalanced": "2026-07-13",
+      "nextRebalanceDateRecommended": "2027-01-13",
+      "taxOptimizationStrategies": [
+        "Max ELSS investment: ₹1.5L/year (Section 80C)",
+        "NPS Tier-I contribution: ₹1.5L/year (Additional Section 80C)",
+        "Health Insurance premium: Covered under Section 80D",
+        "Dividend income: Focus on growth funds; reinvest dividends for tax efficiency",
+        "Tax-loss harvesting in underperforming holdings (Q4)"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Priya",
+      "age": 45,
+      "occupation": "Senior Executive - Healthcare/Finance",
+      "riskProfile": "Moderately Conservative",
+      "totalPortfolioValue": 9000000,
+      "currency": "INR",
+      "goals": [
+        "Retire at 55-58 (10-13 years)",
+        "Create wealth legacy",
+        "Healthcare & aging parent support",
+        "Tax-efficient wealth transfer"
+      ],
+      "allocation": {
+        "retirementCorpus": {
+          "percentage": 70,
+          "value": 6300000,
+          "description": "Primary focus - Capital preservation + income generation"
+        },
+        "legacyPlanning": {
+          "percentage": 15,
+          "value": 1350000,
+          "description": "Heritage wealth - Estate planning"
+        },
+        "healthcareCostsReserve": {
+          "percentage": 10,
+          "value": 900000,
+          "description": "Healthcare + aging parents support"
+        },
+        "taxPlanning": {
+          "percentage": 5,
+          "value": 450000,
+          "description": "Efficient wealth transfer strategies"
+        }
+      },
+      "holdings": {
+        "largeCapDividendStocks": [
+          {
+            "id": "div_stock_1",
+            "name": "HDFC Bank Limited",
+            "symbol": "HDFCBANK",
+            "quantity": 400,
+            "buyPrice": 1200,
+            "currentPrice": 1650,
+            "amount": 660000,
+            "allocation_pct": 7.33,
+            "sector": "Banking",
+            "dividend_yield": 0.6,
+            "expectedReturn": "10-11%"
+          },
+          {
+            "id": "div_stock_2",
+            "name": "ITC Limited",
+            "symbol": "ITC",
+            "quantity": 800,
+            "buyPrice": 320,
+            "currentPrice": 420,
+            "amount": 336000,
+            "allocation_pct": 3.73,
+            "sector": "Consumer Staples",
+            "dividend_yield": 6.8,
+            "expectedReturn": "9-10%"
+          },
+          {
+            "id": "div_stock_3",
+            "name": "Power Finance Corporation",
+            "symbol": "PFC",
+            "quantity": 500,
+            "buyPrice": 180,
+            "currentPrice": 245,
+            "amount": 122500,
+            "allocation_pct": 1.36,
+            "sector": "Finance / Infrastructure",
+            "dividend_yield": 5.2,
+            "expectedReturn": "8-9%"
+          },
+          {
+            "id": "div_stock_4",
+            "name": "Reliance Industries",
+            "symbol": "RELIANCE",
+            "quantity": 100,
+            "buyPrice": 2400,
+            "currentPrice": 2850,
+            "amount": 285000,
+            "allocation_pct": 3.17,
+            "sector": "Diversified / Energy",
+            "dividend_yield": 1.2,
+            "expectedReturn": "10-11%"
+          },
+          {
+            "id": "div_stock_5",
+            "name": "Oil & Natural Gas Corporation",
+            "symbol": "ONGC",
+            "quantity": 1000,
+            "buyPrice": 150,
+            "currentPrice": 195,
+            "amount": 195000,
+            "allocation_pct": 2.17,
+            "sector": "Energy",
+            "dividend_yield": 8.5,
+            "expectedReturn": "8-9%"
+          }
+        ],
+        "balancedConservativeFunds": [
+          {
+            "id": "balanced_1",
+            "name": "HDFC Conservative Hybrid Fund",
+            "symbol": "HDFCCONSERVATIVE",
+            "amount": 1000000,
+            "allocation_pct": 11.11,
+            "expense_ratio": 0.92,
+            "allocation_equity": "25%",
+            "allocation_debt": "75%",
+            "expected_return": "7-8%",
+            "category": "Conservative Hybrid"
+          },
+          {
+            "id": "balanced_2",
+            "name": "SBI Conservative Hybrid Fund",
+            "symbol": "SBICONSERVATIVE",
+            "amount": 900000,
+            "allocation_pct": 10,
+            "expense_ratio": 0.91,
+            "allocation_equity": "25%",
+            "allocation_debt": "75%",
+            "expected_return": "7-8%",
+            "category": "Conservative Hybrid"
+          }
+        ],
+        "incomeGeneratingFunds": [
+          {
+            "id": "income_1",
+            "name": "HDFC Income Fund",
+            "symbol": "HDFCINCOME",
+            "amount": 800000,
+            "allocation_pct": 8.89,
+            "expense_ratio": 0.45,
+            "expected_return": "6-7%",
+            "category": "Income Generation"
+          },
+          {
+            "id": "income_2",
+            "name": "SBI Dividend Yield Fund",
+            "symbol": "SBIDIVIDEND",
+            "amount": 700000,
+            "allocation_pct": 7.78,
+            "expense_ratio": 0.50,
+            "expected_return": "6-7%",
+            "category": "Dividend Income"
+          }
+        ],
+        "debtFunds": [
+          {
+            "id": "debt_1",
+            "name": "HDFC Bond Fund",
+            "symbol": "HDFCBOND",
+            "amount": 1200000,
+            "allocation_pct": 13.33,
+            "expense_ratio": 0.35,
+            "duration_years": 5,
+            "expected_return": "6-6.5%",
+            "category": "Bond Fund"
+          },
+          {
+            "id": "debt_2",
+            "name": "ICICI Prudential FMP",
+            "symbol": "ICICIFMP",
+            "amount": 800000,
+            "allocation_pct": 8.89,
+            "expense_ratio": 0.50,
+            "tenure_years": 3,
+            "expected_return": "6.2-6.8%",
+            "category": "Fixed Maturity Plan"
+          }
+        ],
+        "fixedDeposits": [
+          {
+            "id": "fd_1",
+            "bank": "SBI",
+            "amount": 1200000,
+            "allocation_pct": 13.33,
+            "tenure_years": 5,
+            "rate_percent": 6.5,
+            "maturityDate": "2031-07-13",
+            "purpose": "Core retirement fund"
+          },
+          {
+            "id": "fd_2",
+            "bank": "HDFC Bank",
+            "amount": 1000000,
+            "allocation_pct": 11.11,
+            "tenure_years": 7,
+            "rate_percent": 6.75,
+            "maturityDate": "2033-07-13",
+            "purpose": "Long-term retirement safety"
+          }
+        ],
+        "governmentSecurities": [
+          {
+            "id": "gsec_1",
+            "name": "Government Securities (Gilt Fund)",
+            "symbol": "GSECGILT",
+            "amount": 600000,
+            "allocation_pct": 6.67,
+            "expected_return": "5.5-6%",
+            "maturity_years": 5,
+            "risk": "Zero credit risk",
+            "category": "Government Securities"
+          }
+        ],
+        "reits": [
+          {
+            "id": "reit_1",
+            "name": "Embassy Office Parks REIT",
+            "symbol": "EMBRELTY",
+            "units": 200,
+            "buyPrice": 350,
+            "currentPrice": 420,
+            "amount": 84000,
+            "allocation_pct": 0.93,
+            "dividend_yield": 6.5,
+            "expectedReturn": "8-10%"
+          },
+          {
+            "id": "reit_2",
+            "name": "Mindspace Business Parks REIT",
+            "symbol": "MINDSPACEIT",
+            "units": 150,
+            "buyPrice": 380,
+            "currentPrice": 450,
+            "amount": 67500,
+            "allocation_pct": 0.75,
+            "dividend_yield": 6.2,
+            "expectedReturn": "8-10%"
+          }
+        ],
+        "insuranceProducts": [
+          {
+            "id": "insurance_1",
+            "type": "Term Life Insurance",
+            "provider": "Bajaaj Allianz",
+            "coverage": 3000000,
+            "annual_premium": 5400,
+            "coverage_till_age": 70,
+            "purpose": "Legacy transfer / Dependents"
+          },
+          {
+            "id": "insurance_2",
+            "type": "Senior Citizen Health Insurance",
+            "provider": "United India",
+            "coverage": 800000,
+            "annual_premium": 12000,
+            "purpose": "Healthcare & aging parent support"
+          },
+          {
+            "id": "insurance_3",
+            "type": "Long-Term Care Insurance",
+            "provider": "Reliance General",
+            "coverage": 2000000,
+            "annual_premium": 18000,
+            "purpose": "Nursing care / Elderly support"
+          }
+        ]
+      },
+      "yearlyFinancialMetrics": {
+        "expectedAnnualReturn": "6.8%",
+        "expectedVolatility": "5-7%",
+        "sharpeRatio": 0.95,
+        "annualIncome_Expected": 450000,
+        "projectedValue_5yr": 12100000,
+        "projectedValue_10yr": 17300000,
+        "retirementCorpusAtAge58": 18500000
+      },
+      "retirementIncomeProjection": {
+        "currentAnnualExpenses": 960000,
+        "projected_atRetirement": 1200000,
+        "portfolio_annual_withdrawal_4pct": 740000,
+        "pension_or_gratuity": 400000,
+        "total_annual_income": 1140000,
+        "shortfall_covered_by": "Investment returns reinvestment"
+      },
+      "glidePathAllocation": {
+        "age45_now": {
+          "equities": "40%",
+          "debt": "50%",
+          "alternatives": "10%"
+        },
+        "age50": {
+          "equities": "30%",
+          "debt": "60%",
+          "alternatives": "10%"
+        },
+        "age55": {
+          "equities": "20%",
+          "debt": "70%",
+          "alternatives": "10%"
+        },
+        "age58_retirement": {
+          "equities": "15%",
+          "debt": "75%",
+          "alternatives": "10%"
+        }
+      },
+      "rebalancingStrategy": "Quarterly review; Annual equity-to-debt shift as retirement approaches",
+      "lastRebalanced": "2026-07-13",
+      "nextRebalanceDateRecommended": "2026-10-13",
+      "estateAndSuccessionPlanning": {
+        "will_registered": true,
+        "nominee_designations": [
+          "Spouse",
+          "Children"
+        ],
+        "wealth_transfer_strategy": "Direct nomination + Will-based provisions",
+        "tax_efficiency": "Trust-based arrangements under consideration for children's education",
+        "life_insurance_beneficiary": "Spouse for income protection; Children for legacy"
+      }
+    }
+  ],
+  "portfolio_summary": {
+    "total_investors": 3,
+    "total_portfolio_value": 18000000,
+    "generated_date": "2026-07-13",
+    "currency": "INR",
+    "average_age": 38.3,
+    "blended_expected_return": "8.4%",
+    "diversification_index": "High across equity, debt, alternatives, and direct holdings"
+  }
+}
